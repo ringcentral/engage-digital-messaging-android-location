@@ -1,5 +1,9 @@
 # Engage Digital Messaging Maps SDK master #
 
+## Engage Digital Messaging Maps SDK for Android 1.1.0 (July 1st, 2026) ##
+- Improvement: Upgrade `play-services-maps` package from `18.2.0` to `20.0.0`. RD-42078
+- Improvement: Upgrade `play-services-location` package from `19.3.0` to `21.3.0`. RD-42078
+
 ## Engage Digital Messaging Maps SDK for Android 1.0.2 (June 19th, 2024) ##
 - Fix: previously sent locations are not fully displayed if connection was lost. RD-23649
 - Fix: Restore the zoom level when turning the phone into landscape mode. RD-24277

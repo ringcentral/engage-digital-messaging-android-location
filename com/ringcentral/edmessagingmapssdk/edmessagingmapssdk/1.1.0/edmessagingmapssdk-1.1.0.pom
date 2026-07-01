@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ringcentral.edmessagingmapssdk</groupId>
+  <artifactId>edmessagingmapssdk</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <licenses>
+    <license>
+      <name>Engage Digital Messaging Maps SDK</name>
+      <url>https://github.com/ringcentral/engage-digital-messaging-android/LICENCE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <dependencies/>
+</project>
