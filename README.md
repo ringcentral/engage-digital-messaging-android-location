@@ -7,9 +7,9 @@ It allows your users to send location messages through you Engage Digital Messag
 Supported Versions
 ------------------
 
-The Engage Digital Messaging Maps SDK for Android is currently supporting **Android 5.0 (API 21) and above** and is only compatible with the [Engage Digital Messaging Android SDK](https://github.com/ringcentral/engage-digital-messaging-android/blob/master/CHANGELOG.md) **version 2.3.0 and above**.
+The Engage Digital Messaging Maps SDK for Android supports **Android 7.0 (API 24) and above** and is only compatible with the [Engage Digital Messaging Android SDK](https://github.com/ringcentral/engage-digital-messaging-android/blob/master/CHANGELOG.md) **version 2.3.0 and above**.
 
-Please note that the Engage Digital Messaging Maps SDK for Android will require the usage of [AndroidX](https://developer.android.com/jetpack/androidx)
+Please note that the Engage Digital Messaging Maps SDK for Android requires [AndroidX](https://developer.android.com/jetpack/androidx).
 
 Getting Started
 ---------------
@@ -50,7 +50,7 @@ The Engage Digital Messaging Maps SDK for Android takes advantage of the Google 
 | Key | Restriction(s) | Purpose(s) |
 | --- | -------------- | ---------- |
 | [Android key](#android-key) | [Maps SDK for Android](https://developers.google.com/maps/documentation/android-sdk/overview) | Used to display the map. |
-| [Maps key](#maps-key) | [Places API](https://developers.google.com/maps/documentation/places/web-service/overview) | Used to enable the address search. |
+| [Maps key](#maps-key) | [Places API (New)](https://developers.google.com/maps/documentation/places/android-sdk/get-api-key) | Used to enable the address search. |
 
 Engage Digital Messaging Maps initialization
 --------------------------------------------
@@ -72,6 +72,8 @@ EngageDigitalMessagingMaps engageDigitalMessagingMaps = EngageDigitalMessagingMa
 ```java
 engageDigitalMessagingMaps.setMapsApiKey("YOUR_MAPS_KEY");
 ```
+
+Enable **Places API (New)** in your Google Cloud project and allow it for the Maps API key. The SDK uses Places API (New) for address search.
 
 4. Override the `onLocationButtonClick` on your `DimeloListener`:
 ```java

@@ -1,5 +1,10 @@
 # Engage Digital Messaging Maps SDK master #
 
+## Engage Digital Messaging Maps SDK for Android 2.0.0 (November 23th, 2026)  ##
+- BREAKING CHANGE: Remove Places API (Legacy) support; address search now uses Places API (New) only. RD-43491
+- BREAKING CHANGE: Require Android 7.0 (API 24) or above to use Places SDK for Android 6.0.2. RD-43491
+- Improvement: Upgrade Places SDK for Android from 3.3.0 to 6.0.2. RD-43491
+
 ## Engage Digital Messaging Maps SDK for Android 1.1.0 (July 1st, 2026) ##
 - Improvement: Upgrade `play-services-maps` package from `18.2.0` to `20.0.0`. RD-42078
 - Improvement: Upgrade `play-services-location` package from `19.3.0` to `21.3.0`. RD-42078
